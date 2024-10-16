@@ -9,10 +9,10 @@
 	//--------------------------------------------------------------
 	"CustomCrosshair"
 	{
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"<"
-		"controlName"		"CExLabel"
+		"labelText"			"?"
+		"controlName"			"CExLabel"
 		"fieldName"			"CustomCrosshair"
 		"zpos"				"0"
 		"xpos"				"cs-0.5"
@@ -20,8 +20,25 @@
 		"wide"				"f0"
 		"tall"				"f0"
 		"font"				"Size:18"
-		"textAlignment"		"center"
+		"textAlignment"			"center"
 		"fgcolor"			"Crosshair"
+	}
+	"Hitmarker"
+	{
+		"labelText" 			"J"
+	    	"ControlName" 			"CExLabel"
+	    	"fieldName" 			"HitMarker"
+	    	"enabled" 			"1"
+	    	"visible" 			"1"
+	    	"zpos"  			"0"
+	    	"wide"  			"f0"
+	    	"tall"  			"f0"
+	    	"textAlignment" 		"center"
+	    	"alpha" 			"0"
+		"font"  			"Size:22"
+		"xpos"  			"cs-0.5"
+		"ypos"  			"cs-0.5"
+		"fgcolor" 			"CrosshairDamage"
 	}
 	//--------------------------------------------------------------
 	// SPEEDOMETER
