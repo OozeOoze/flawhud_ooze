@@ -90,6 +90,7 @@ Scheme
 				"tall"			"18"
 				"weight"		"0"
 				"antialias"		"1"
+				"outline"   		"1"
 			}
 		}
 		"Size:19"
